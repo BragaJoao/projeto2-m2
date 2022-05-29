@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+header {
+  padding: 3rem;
+  background-color: #e3350d;
+  font-size: 26px;
+}
+
+header h1 {
+  color: #e6bc2f;
+  background-color: #e3350d;
+}
+
+main {
+  margin: 0 10rem 0 10rem;
+}
+
+main section#cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  color: black;
+}
+
+main section#cards div.card a {
+  padding: 0.7rem;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  background-color: #f3850d;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  margin-top: 3rem;
+  color: black;
+}
+
+main section#cards div.card a:hover {
+  background-color: #e3350d;
+}
+
+main section#cards div.card {
+  width: 15rem;
+  box-shadow: 2.5px 2.5px 2.5px #e6bc2f;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: whitesmoke;
+  margin-top: 1.7rem;
+}
+
+main section#cards div.card img {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+main section#cards div.card h2 {
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+
+main section#cards div.card p {
+  background-color: whitesmoke;
+}
+
+main section#cards div.card p.descricao {
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+}
+
+main section#cadastro {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 4rem;
+  background-color: #e3350d;
+  border-radius: 4rem;
+  margin: 5rem;
+  color: white;
+}
+
+main section#cadastro h2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5rem;
+  background-color: #e3350d;
+  color: #e6bc2f;
+}
+
+main section#cadastro form {
+  width: 50%;
+  background-color: #e3350d;
+}
+
+main section#cadastro form input {
+  width: 100%;
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: solid 2px rgb (190, 190, 190);
+  margin: 0rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+main section#cadastro form label {
+  margin: 1rem;
+  background-color: #e3350d;
+  color: #e6bc2f;
+}
+
+main section#cadastro form button {
+  padding: 0.7rem;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  background-color: #e6bc2f;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+main section#cadastro form button:hover {
+  background-color: rgb(295, 295, 0);
+}
