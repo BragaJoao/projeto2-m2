@@ -12,6 +12,7 @@ body  {
 
 
 section#inicio {
+  width: 100%;
   display: flex;
   color: #e6bc2f;
   background-color: #e3350d;
@@ -28,8 +29,8 @@ section#inicio header {
 section#inicio header img {
   color: #e6bc2f;
   background-color: #e3350d;
-  max-width: 75px;
-  max-height: 50px;
+  max-width: 4.688rem;
+  max-height: 3.125rem;
   width: auto;
   height: auto;
 }
@@ -159,8 +160,8 @@ section#cards div.card p.descricao {
 section#cadastro {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 50%;
+  flex-direction: column;
+  width: 45%;
   padding: 4rem;
   background-color: #e3350d;
   border-radius: 4rem;
@@ -179,6 +180,9 @@ section#cadastro h2 {
 section#cadastro form {
   width: 75%;
   background-color: #e3350d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section#cadastro form input {
@@ -200,7 +204,7 @@ section#cadastro form label {
 
 section#cadastro form button {
   padding: 0.7rem;
-  width: 40%;
+  width: 45%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -220,12 +224,29 @@ section#cadastro div#organizar {
   display: flex;
 }
 
-section#cadastro figure img {
-  max-width: 250px;
-  
-  width: auto ;
-  height: auto ;
+
+footer {
+  width: 100%;
+  display: flex;
+  background-color: #e3350d;
+  color: #e6bc2f;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
+
+footer p {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  padding: .3rem;
+  color: #e6bc2f;
+}
+
+footer p a{
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+} 
 
 section#message {
   padding: 1.5rem;
@@ -263,7 +284,12 @@ span#close:hover{
  section#inicio nav {
    margin: 0;
 }
-section#cadastro form button {
-  width: 80%;
+
+section#cadastro form {
+  width: 100%;
 }
+section#cadastro form button {
+  width: 85%;
+}
+
 }
